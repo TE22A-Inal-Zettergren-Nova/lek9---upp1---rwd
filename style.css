@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
-    gap: 5px;
+    gap: 10px;
 }
 
 header, main, article, footer, nav{
@@ -14,18 +14,22 @@ header, main, article, footer, nav{
 nav{
     flex-direction: column;
     display: flex;
+    
 }
 
 h2{
-    font-size: 18px;
+    font-size: calc(18px);
 }
 
 article{
     margin: 5px;
+    height: 20vh;
 }
 
 footer{
     flex-direction: row;
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 8vh;
 }
