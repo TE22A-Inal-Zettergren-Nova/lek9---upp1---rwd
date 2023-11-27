@@ -16,3 +16,16 @@ nav{
     display: flex;
 }
 
+h2{
+    font-size: 18px;
+}
+
+article{
+    margin: 5px;
+}
+
+footer{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
