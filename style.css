@@ -33,3 +33,16 @@ footer{
     justify-content: center;
     height: 8vh;
 }
+
+/*tablet*/
+
+@media screen and (min-width: 641px) {
+    body{
+        display: grid;
+        grid-template-rows: 20vh 60vh auto auto;
+        grid-template-columns: auto 1fr; 
+    }
+
+    
+
+}
